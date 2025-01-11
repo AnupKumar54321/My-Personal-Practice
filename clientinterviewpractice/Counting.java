@@ -11,6 +11,7 @@ public class Counting {
 		Map<Integer,Long> map  = list.stream().collect(Collectors.groupingBy(i->i,Collectors.counting()));
 		map.forEach((k,v)->{
 			System.out.println(k+"--------"+v);
+			System.out.println("Anup Chnages");
 		});
 	}
 
